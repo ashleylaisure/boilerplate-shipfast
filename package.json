@@ -35,6 +35,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "@types/jest": "^29.5.12",
     "@types/mdx": "^2.0.12",
     "@types/mongoose": "^5.11.97",
@@ -42,10 +43,11 @@
     "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.23",
     "@types/react-syntax-highlighter": "^15.5.11",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.21",
     "daisyui": "^4.10.1",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "tw-animate-css": "^1.3.6",
     "typescript": "^5.4.3"
   }
 }
