@@ -7,6 +7,30 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: "#fff1e6",
+          500: "#ff7000",
+        },
+        dark: {
+          100: "#000000",
+          200: "#0f1117", 
+          300: "#151821",
+          400: "#212734",
+          500: "#101012",
+        },
+        light: {
+          400: "#858ead",
+          500: "#7b8ec8",
+          700: "#dce3f1",
+          800: "#f4f6f8",
+          850: "#fdfdfd",
+          900: "#ffffff",
+        },
+        link: {
+          100: "#1da1f2",
+        },
+      },
       backgroundImage: {
         gradient:
           "linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82)",

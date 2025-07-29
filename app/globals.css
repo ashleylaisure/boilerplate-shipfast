@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@custom-variant dark (&:is(.dark *));
-
 @layer base {
   :root{
     --color-primary-100: #fff1e6;
@@ -88,7 +86,6 @@
   }
 
   .background-light800_dark400 {
-    @apply bg-light-800! dark:bg-dark-400!;
     @apply bg-light-800 dark:bg-dark-400;
   }
 
@@ -101,7 +98,7 @@
   }
 
   .background-light800_dark300 {
-    @apply bg-light-800! dark:bg-dark-300!;
+    @apply bg-light-800 dark:bg-dark-300;
   }
 
   .background-light800_dark200 {
@@ -153,8 +150,7 @@
   }
 
   .text-light400_light500 {
-    @apply text-light-400! dark:text-light-500!;
-    @apply text-light-400! dark:text-light-500!;
+    @apply text-light-400 dark:text-light-500;
   }
 
   .text-dark400_light500 {
@@ -274,11 +270,6 @@
   }
 
   .dark-gradient {
-    background: linear-gradient(
-      232deg,
-      rgba(23, 28, 35, 0.41) 0%,
-      rgba(19, 22, 28, 0.7) 100%
-    );
     background: linear-gradient(
       232deg,
       rgba(23, 28, 35, 0.41) 0%,
